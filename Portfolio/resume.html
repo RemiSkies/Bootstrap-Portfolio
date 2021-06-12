@@ -1,0 +1,250 @@
+<!doctype html>
+
+<!--
+    Author: Nereida Roddriguez
+    Date: 6/9/2021
+    File: resume.html
+    Purpose: My resume page - broken down into seperate sections and including my pdf resume at the end
+-->
+
+
+<html lang="en">
+
+<!-- Head Here -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="My name is Nereida Rodriguez and I am a Web Designer and Developer." />
+    <meta name="keywords" content="portfolio, web design, web developer, design, developer, RemiSkies, RemiSkies_Design" />
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/pawprint.png">
+        
+
+    <title>RemiSkies Design</title>
+
+  </head>
+
+  <!-- Body Here -->
+
+  <body>
+
+    <header class="mainhead">
+      <h1><a href="index.html">Nereida Rodriguez</a></h1>
+    </header>
+
+    <!-- navigation here using Bootstrap 4 -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">RemiSkies Design</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Me
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about.html">My Personality</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="resume.html">Resume <span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- page content here, tabs using Bootstrap 4 -->
+
+    <h2 class="resume">Resume</h2>
+
+    <div class="container">
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link active" id="nav-education-tab" data-toggle="tab" href="#nav-education" role="tab" aria-controls="nav-education" aria-selected="true">Education</a>
+          <a class="nav-item nav-link" id="nav-techskills-tab" data-toggle="tab" href="#nav-techskills" role="tab" aria-controls="nav-techskills" aria-selected="false">Technical Skills</a>
+          <a class="nav-item nav-link" id="nav-employment-tab" data-toggle="tab" href="#nav-employment" role="tab" aria-controls="nav-employment" aria-selected="false">Employment</a>
+          <a class="nav-item nav-link" id="nav-resume-tab" data-toggle="tab" href="#nav-resume" role="tab" aria-controls="nav-resume" aria-selected="false">Resume PDF</a>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab">
+
+            <!-- education below, created in table format for ease of response -->
+
+            <h2 class="education">EDUCATION</h2>
+
+                <h4>Wake Technical Community College, Raleigh, NC</h3>
+                <h5>Degrees</h5>
+
+                <table class="education">
+                    <tr>
+                        <td>Business Administration</td>
+                        <td>Associate in Applied Science</td>
+                        <td>May 2018</td>
+                    </tr>
+                    <tr>
+                        <td>Web Designer</td>
+                        <td>Associate in Information Technology</td>
+                        <td>May 2021</td>
+                    </tr>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>Associate in Information Technology</td>
+                        <td>May 2021</td>
+                    </tr>
+                </table>
+
+                    <h5>Certificates</h5>
+
+                    <table class="education">
+                        <tr>
+                            <td>International Business</td>
+                            <td>Business Core Certificate</td>
+                            <td>May 2018</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Web Designer</td>
+                            <td>Information Technology Certificate</td>
+                            <td>May 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Web Developer</td>
+                            <td>Information Technology Certificate</td>
+                            <td>May 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Front End Developer</td>
+                            <td>Information Technology Certificate</td>
+                            <td>May 2021</td>
+                        </tr>
+                    </table>
+
+        </div>
+
+        <!-- technical skills  -->
+
+        <div class="tab-pane fade" id="nav-techskills" role="tabpanel" aria-labelledby="nav-techskills-tab">
+            
+            <h2>TECHNICAL SKILLS</h2>
+
+            <ul class="techSkill">
+                <li>Microsoft Office Suite: Word, Excel, PowerPoint, Outlook.</li>
+                <li>Adobe: Photoshop, Premiere Pro, Dreamweaver, XD, After Effects, InDesign, Illustrator.</li>
+                <li>Web/Programming: HTML, HTML5, CSS, CSS3 MySQL, PHP, JavaScript, Oracle, SQL*Plus,
+                    ASP.Net MVC, Node.JS, React, WordPress, Joomla, CMS.</li>
+                <li>Social Media: Facebook, Twitter, Instagram, LinkedIn</li>
+                <li>Troubleshooting: Problem solving, Critical thinking skills, System knowledge, Analytical skills.</li>
+                <li>Project Management Skills: Task/Time management, Prioritization, Delgation, Scheduling, Task separation, Detail oriented.</li>
+                <li>Other Programs: Point-of-Sales System, OfficeMate</li>
+                <li>Soft Skills: Anticipating Needs, Strong Leadership, Adaptability, Strong Customer Service Skills.</li>
+            </ul>
+        </div>
+
+        <!-- employment section -->
+
+        <div class="tab-pane fade employment" id="nav-employment" role="tabpanel" aria-labelledby="nav-employment-tab">
+
+            <h2>EMPLOYMENT</h2>
+                    <p>&#9770; Preston Optometry Center: Cary, North Carolina <br />
+                        Optician Technician August 2017-active <br />
+
+                    <ul class="employList">
+                      <li>Troubleshot technology issues within the building: Wi-Fi connections, printer/scanner connections, software downloads.</li>
+                      <li>Assist in front-desk and phone support with high call volume, receive and arrange frames for display, and track inventory.</li>
+                      <li>Engage in pre-testing procedures before patient appointments, and handle prescription checks for accuracy within deadlines.</li>
+                      <li> Ensure that Doctor/Owner maintains schedule with appointments.</li>
+                      <li>Located insurance information for patients, informed patients of all benefits, and billed insurance.</li>
+                      <li>Manage detailed lab work regarding prescription lenses and frame repairs.</li>
+                    </ul>
+
+                    <br>
+
+                    &#9770; REGAL CINEMAS BRIER CREEK 14, Raleigh, North Carolina <br />
+                    Associate Manager July 2016 – July 2017 <br />
+
+                    <ul class="employList">
+                      <li>Maintained established merchandising standards, including window, sales floor and promotional displays.</li>
+                      <li>Engaged in customer service, handling guest issues and complaints, providing information, and overseeing theatre operations.</li>
+                      <li>Strategically scheduled team members shifts to maintain optimal staffing levels at all times.</li>
+                      <li>Hired employees and completed necessary administrative paperwork.</li>
+                      <li>Managed invoices and properly handled inventory as well as troubleshooted technology (Projectors, computers, etc).</li>
+                    </ul>
+
+                    <br>
+                
+                    &#9770; REGAL CINEMAS CROSSROADS 20 & IMAX, Cary, North Carolina <br />
+                    Associate Manager August 2015 – May 2016 <br />
+
+                    <ul class="employList">
+                      <li>Promoted to Associate Manager and assisted with various areas including human resources and administrative support.</li>
+                      <li>Represented theatre by engaging customers with courtesy and professionalism.</li>
+                    </ul>
+
+                    <br>              
+                
+                    &#9770; REGAL CINEMAS CROSSROADS 20 & IMAX, Cary, North Carolina <br />
+                    Floor Staff April 2014 – August 2015 <br />
+                  
+                    <ul class="employList">
+                      <li>Greeted and assisted customers with issues and complaints, sold tickets and concession items, and maintained cleanliness of theatres in between shows.</li>
+                    </ul>
+                    </p>
+
+        </div>
+
+        <!-- resume here -->
+
+        <div class="tab-pane fade" id="nav-resume" role="tabpanel" aria-labelledby="nav-resume-tab">
+            
+            <a href="./Nereida Rodriguez Resume.pdf" target="_blank" class="pdf">My Resume.pdf</a>
+        </div>
+      </div>
+
+    </div>
+
+<br><br>
+
+
+  <!-- Footer Here -->
+	
+	<footer class="footer">
+		<aside>
+			<a href="https://www.facebook.com/remiskies.design/" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/remiskiesdesign" target="_blank" class="fa fa-twitter"></a>
+			<a href="https://www.linkedin.com/in/nereida-a-rodriguez" target="_blank" class="fa fa-linkedin"></a>
+			<a href="https://instagram.com/remiskiesdesign" target="_blank" class="fa fa-instagram"></a>
+            <a href="http://www.remiskies.wordpress.com" target="_blank" class="fa fa-wordpress"></a>
+            <a href="https://github.com/RemiSkies" target="_blank" class="fa fa-github"></a>
+            
+            <br>
+
+            <p>RemiSkies_Design © Copyright | All Rights Reserved<br>
+                Contact: <a href="remiskies_design@outlook.com">remiskies_design@outlook.com</a></p>
+		</aside>
+    </footer>
+
+    <br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

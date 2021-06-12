@@ -1,0 +1,382 @@
+/*Styles for all .html files.*/
+
+/***************************
+**          Body          **
+***************************/
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: black;
+}
+/* header styling */
+
+header {
+	font-family: 'Baskerville Old Face';
+	font-size: 2.4vw;
+}
+
+.mainhead {
+	text-align: center;
+	background-image: linear-gradient(260deg, #FFF 0%, #2376ae 100%);
+}
+
+.mainhead h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+/***************************
+**         Footer         **
+***************************/
+
+/* social media links */
+
+aside .fa {
+    font-size: 2em;
+	padding: 15px;
+    margin: 5px;
+	width: 15px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 70%;
+}
+
+.fa-facebook {
+	color: #000;
+}
+
+.fa-twitter {
+	color: #000;
+}
+
+.fa-linkedin {
+	color: #000;
+}
+
+.fa-instagram {
+	color: #000;
+}
+
+.fa-wordpress {
+	color: #000;
+}
+
+.fa-github {
+	color: #000;
+}
+
+aside {
+	text-align: center;
+	margin-top: 2.5em;
+}
+
+
+/* index.html styling */
+
+/***************************
+**          Body          **
+***************************/
+
+/* Jumbotron */
+
+/* hero image */
+
+.heroImg {
+	text-align: center;
+	position: relative;
+}
+
+.heroText {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background-color: rgba(82, 82, 82, 0.4);
+}
+
+/* center lead button */
+
+.jumbotron {
+	text-align: center;
+}
+
+/* h4 projects */
+
+.project {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/* bring cards off edges */
+
+#myCard {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* give buttons my color */
+
+#myBtn {
+	background-color: #2376ae;
+}
+
+#myBtn:hover {
+	background-color: #0e3249;
+}
+
+/* end index.html styles */
+
+
+/* begin about.html styles */
+
+.about {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* intro container */
+
+.intro {
+	width: 80%;
+	margin: auto;
+	background-color: rgba(155, 154, 154, 0.3);
+    padding: 10px;
+}
+
+    .intro img {
+        float: left;
+        max-width: 20vw;
+        padding: 0 10px 5px 0;
+    }
+
+@media only screen and (max-width: 500px) {
+
+img.mobile {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+}
+
+/* end about.html */
+
+
+/* resume.html styling */
+
+
+    /***************************
+    **          Body          **
+    ***************************/
+    
+    .resume {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .nav-tabs {
+        border: 1px solid #ccc;
+        cursor: pointer;
+        transition: 0.3s;
+	    font-weight: bold;
+	    box-shadow: inset 1px 2px #6bb6e7;
+    }
+
+    .nav-item:hover {
+        background-image: linear-gradient(240deg, #FFF 5%, #6bb6e7 70%);
+      }
+    
+    .tab-content {
+        background-color: rgba(240, 238, 238, 0.3);
+	    padding: 6px 12px;
+        border: 3px solid #ccc;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    h4, h5 {
+        text-align: center;
+    }
+
+    .education {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Style Education */
+
+    table.education {
+        border-collapse: collapse;
+        border-style: none;
+        font-size: .8em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+    }
+
+    td {
+        padding-right: 1.5em;
+        font-size: 1.2em;
+    }
+
+    tr:hover {
+        background-color: #d4d3d3;
+    }
+
+    /* Style Technical Skills List */
+
+    ul.techSkill li {
+        list-style-type: circle;
+        margin: 1em 0 0 .5em;
+        font-size: .8em;
+        text-align: left;
+    }
+
+    /* Style Employment List */
+
+    .employment {
+        text-align: center;
+    }
+
+    ul.employList li {
+        list-style-type: circle;
+        margin: 1em 0 0 .5em;
+        font-size: .8em;
+        text-align: left;
+    }
+    
+     /* Style .pdf link */
+    .pdf {
+        text-decoration: none;
+        color: #000;
+        margin: 50px;
+        text-align: center;
+    }
+
+    .pdf:hover {
+        background-color: #6bb6e7;
+    }
+    
+    
+    @media screen and (max-width: 500px) {
+    
+    /***************************
+    **          Body          **
+    ***************************/
+    
+    /* Table Responsive */
+
+	.education tr, td {
+		display: block;
+	    text-align: center;
+	}
+
+	tr {
+		margin: 20px;
+	}
+
+    td {
+        font-size: 1em;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+    }
+
+/* end resume.html */
+
+
+/* portfolio.html styling */
+
+@media screen and (min-width: 500px) {
+
+    /***************************
+    **          Body          **
+    ***************************/
+    .portfolio {
+            text-align: center;
+    }
+
+    .nav-tabs {
+        border: 1px solid #ccc;
+        cursor: pointer;
+        transition: 0.3s;
+	    font-weight: bold;
+	    box-shadow: inset 1px 2px #6bb6e7;
+    }
+
+    .nav-item:hover {
+        background-image: linear-gradient(240deg, #FFF 5%, #6bb6e7 70%);
+      }
+    
+    .tab-content {
+        background-color: rgba(240, 238, 238, 0.3);
+	    padding: 6px 12px;
+        border: 3px solid #ccc;
+        text-align: center;
+    }
+    
+    /* Style the portfolio links */
+
+    .portLinks {
+	    text-decoration: none;
+	    color: black;
+    }
+
+    .portLinks:hover {
+	    text-decoration: underline;
+	    background-color:rgb(142, 200, 248);
+    }
+    
+    
+    }
+    
+    @media screen and (max-width: 500px) {
+    
+    /***************************
+    **          Body          **
+    ***************************/
+    
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    
+    }
+
+	/* end portfolio.html */
+
+
+	/* begin contact.html style */
+
+	#contactBtn {
+		background-color: #2376ae;
+		color: #fff;
+	}
+	
+	#contactBtn:hover {
+		background-color: #0e3249;
+	}
+
+	.container {
+		max-width: 65%;
+	}
+
